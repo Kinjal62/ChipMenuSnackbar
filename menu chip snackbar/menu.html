@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>Menu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-2">
+				<div class="mdc-menu mdc-menu-surface" tabindex="-1" id="demo-menu">
+					<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Back</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Forward</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Reload</span>
+						</li>
+						<li class="mdc-list-divider" role="separator"></li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Help & Feedback</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Settings</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-12">
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">history</i>
+					<div class="mdc-chip__text">History</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">info</i>
+					<div class="mdc-chip__text">Information</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">home</i>
+					<div class="mdc-chip__text">Home</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">lock</i>
+					<div class="mdc-chip__text">Lock</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">search</i>
+					<div class="mdc-chip__text">Search</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">room</i>
+					<div class="mdc-chip__text">Location</div>
+				</div>
+				<div class="mdc-chip">
+					<i class="material-icons mdc-chip__icon mdc-chip__icon--leading">work</i>
+					<div class="mdc-chip__text">Work</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="mdc-button mdc-button--raised snackbar-demo-button">Baseline</button>
+	<button class="mdc-button mdc-button--raised snackbar-demo-button">Leading</button>
+	<button class="mdc-button mdc-button--raised snackbar-demo-button">Stacked</button>
+	<div class="mdc-snackbar">
+		<div class="mdc-snackbar__surface">
+			<div class="mdc-snackbar__label"
+			role="status"
+			aria-live="polite">
+			Can't send photo. Retry in 5 seconds.
+		</div>
+		<div class="mdc-snackbar__actions">
+			<button type="button" class="mdc-button mdc-snackbar__action">Retry</button>
+			<button class="mdc-icon-button mdc-snackbar__dismiss material-icons" title="Dismiss">close</button>
+		</div>
+	</div>
+</div>
+<div class="mdc-snackbar mdc-snackbar--leading">
+	<div class="mdc-snackbar__surface">
+		<div class="mdc-snackbar__label"
+		role="status"
+		aria-live="polite">
+		Your Photo has been archived.
+	</div>
+	<div class="mdc-snackbar__actions">
+		<button type="button" class="mdc-button mdc-snackbar__action">Undo</button>
+		<button class="mdc-icon-button mdc-snackbar__dismiss material-icons" title="Dismiss">close</button>
+		</div>
+	</div>
+</div>
+</div>
+<div class="mdc-snackbar mdc-snackbar--stacked">
+	<div class="mdc-snackbar__surface">
+		<div class="mdc-snackbar__label"
+		role="status"
+		aria-live="polite">
+		The item already has the label "travel", You can add a new label..
+	</div>
+	<div class="mdc-snackbar__actions">
+		<button type="button" class="mdc-button mdc-snackbar__action">Add a new label</button>
+		<button class="mdc-icon-button mdc-snackbar__dismiss material-icons" title="Dismiss">close</button>
+		</div>
+	</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
