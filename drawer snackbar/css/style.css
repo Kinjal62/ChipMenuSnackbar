@@ -1,0 +1,57 @@
+body *{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  background-color: #D1C4E9;
+  height: 100vh;
+}
+/*for drawer*/
+.mdc-drawer-app-content {
+  flex: auto;
+
+  position: relative;
+}
+/*.app-bar {
+  position: absolute;
+}*/
+.mdc-drawer{
+  margin-top: 48px;
+}
+.mdc-top-app-bar {
+  z-index: 7;
+}
+/*drawer content*/
+.logo_img{
+  height:40px;
+  width: 40px;
+  margin-left: 4px auto;
+}
+.mdc-list-item a{
+  text-decoration: none;
+}
+/*main content*/
+.main-content {
+  height: 100%;
+  padding: 18px;
+}
+/*for menu*/
+.mdc-menu-surface{
+  margin-top: 50px;
+  position: absolute;
+ right: 5px !important;
+ left: auto !important;
+}
+.mdc-card{
+  margin: 5px auto;
+  padding: 15px;
+  display: flex;
+  width: 500px;
+  max-width: 90%;
+}
+.mdc-dialog__surface{
+  margin: 5px auto;
+  padding: 15px;
+  display: flex;
+}
