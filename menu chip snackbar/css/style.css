@@ -1,8 +1,5 @@
 .mdc-menu-surface{
 	opacity: 1;
-	display:block;
-	position: relative;
-}
-.mdc-menu{
-	margin: 0 auto;
+	margin-top: 50px;
+	position: absolute;
 }
